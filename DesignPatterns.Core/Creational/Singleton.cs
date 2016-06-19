@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Core.Creational
 {
+    /// <summary>
+    /// Ensure a class has only one instance and provide a global point of access to it.
+    /// </summary>
     public class Singleton
     {
         private static Singleton _instance;
